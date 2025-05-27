@@ -25,7 +25,7 @@ define Package/ledfx
   CATEGORY:=LedFx for OpenWrt
   TITLE:=A network based light effect controller
   URL:=https://ledfx.app
-  DEPENDS:=+python3
+  DEPENDS:=+python3 +python-rtmidi
 endef
 
 define Package/ledfx/description
