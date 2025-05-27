@@ -21,6 +21,7 @@ PKG_CPE_ID:=cpe:/a:numpy:numpy
 PKG_CONFIG_DEPENDS:= \
         CONFIG_NUMPY_OPENBLAS_SUPPORT
 
+PKG_HOST_ONLY:=1
 PKG_BUILD_DEPENDS:=python-cython/host pyproject-metadata/host
 
 # Ensure numpy does not find openblas if openblas support is not enabled
@@ -29,7 +30,9 @@ PYTHON3_PKG_BUILD_VARS:= \
 
 include ../../packages/lang/python/pypi.mk
 include $(INCLUDE_DIR)/package.mk
+include $(INCLUDE_DIR)/host-build.mk
 include ../../packages/lang/python/python3-package.mk
+include ../../packages/lang/python/python3-host-build.mk
 
 define Package/python3-numpy-1.26.4
   SUBMENU:=Python
@@ -91,3 +94,4 @@ endef
 $(eval $(call Py3Package,python3-numpy-1.26.4))
 $(eval $(call BuildPackage,python3-numpy-1.26.4))
 $(eval $(call BuildPackage,python3-numpy-1.26.4-src))
+$(eval $(call HostBuild))
