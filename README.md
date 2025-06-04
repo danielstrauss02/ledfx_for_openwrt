@@ -91,7 +91,7 @@ This is the list of all dependencies of LedFx 2.0.108 and their current status:
 | `paho-mqtt>=1.6.1` | 📦 |  |
 | `psutil>=5.9.7` | ⚠️📦 | Version 5.9.5 upstream |
 | `pyserial>=3.5` | 📦 |  |
-| `pystray>=0.19.5` | ✅ | Patched out, not needed on OpenWrt |
+| `pystray>=0.19.5` | ✅ | Patched out, not applicable to OpenWrt |
 | `python-rtmidi>=1.5.8` | ⚠️ | Builds correctly, but shared object has wrong name |
 | `requests>=2.31.0` | 📦 |  |
 | `sacn>=1.9.0` | ✅ |  |
@@ -105,7 +105,7 @@ This is the list of all dependencies of LedFx 2.0.108 and their current status:
 | `flux-led>=1.0.4` | ⚠️ | Missing dependency: `pytest-runner>=5.2` |
 | `python-osc>=1.8.3` | ❓ |  |
 | `pybase64~=1.4.0` | ❓ |  |
-| `mss~=10.0.0` | ❓ |  |
+| `mss~=10.0.0` | ✅ | Patched out, not applicable to OpenWrt |
 | `setuptools~=76.0.0` | ⚠️📦 | Version 69.0.2 upstream |
 | `uvloop>=0.16.0` | ❓ |  |
 | `rpi-ws281x>=4.3.0` | ❓ |  |
