@@ -91,7 +91,7 @@ This is the list of all dependencies of LedFx 2.0.108 and their current status:
 | `paho-mqtt>=1.6.1` | 📦 |  |
 | `psutil>=5.9.7` | ⚠️📦 | Version 5.9.5 upstream |
 | `pyserial>=3.5` | 📦 |  |
-| `pystray>=0.19.5` | ❓ | No source distribution on PyPi |
+| `pystray>=0.19.5` | ✅ | Patched out, not needed on OpenWrt |
 | `python-rtmidi>=1.5.8` | ⚠️ | Builds correctly, but shared object has wrong name |
 | `requests>=2.31.0` | 📦 |  |
 | `sacn>=1.9.0` | ✅ |  |
