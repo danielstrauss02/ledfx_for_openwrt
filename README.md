@@ -108,7 +108,7 @@ This is the list of all dependencies of LedFx 2.0.108 and their current status:
 | `mss~=10.0.0` | ✅ | Patched out, not applicable to OpenWrt |
 | `setuptools~=76.0.0` | ⚠️📦 | Version 69.0.2 upstream |
 | `uvloop>=0.16.0` | ❓ |  |
-| `rpi-ws281x>=4.3.0` | ❓ |  |
+| `rpi-ws281x>=4.3.0` | ✅ | Patched out, not applicable to most targets |
 | `stupidartnet>=1.6.0,<2.0.0` | ❓ |  |
 | `python-dotenv>=1.0.0,<2.0.0` | 📦 |  |
 | `vnoise>=0.1.0,<1.0.0` | ❓ |  |
