@@ -100,7 +100,7 @@ This is the list of all dependencies of LedFx 2.0.108 and their current status:
 | `samplerate>=0.2.1` | ⚠️ | CMake build fails |
 | `icmplib>=3.0.4` | ✅ |  |
 | `voluptuous>=0.14.1` | ⚠️📦 | Version 0.13.1 upstream |
-| `zeroconf>=0.131.0` | ✅ |  |
+| `zeroconf>=0.131.0` | 📦 |  |
 | `pillow>=10.1.0` | 📦 |  |
 | `flux-led>=1.0.4` | ⚠️ | Missing dependency: `pytest-runner>=5.2` |
 | `python-osc>=1.8.3` | ❓ |  |
